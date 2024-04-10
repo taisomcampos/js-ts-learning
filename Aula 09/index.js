@@ -10,14 +10,14 @@ var nome = 'Bolseiro';
 */
 
 /*
-*Já isso dará erro, pois pra redeclarar uma variável com let, simplismete devo escreve-la ultilizando somente o identificador  
+* Já isso dará erro, pois para redeclarar uma variável com let, simplesmente devo escreve-la ultilizando somente o identificador  
 
 let nome = 'Bilbo';
 let nome = 'Bolseiro';
 */
 
+// Forma correta de se redeclarar uma variável últilizando let
 let nome = 'Bilbo';
 nome = 'Bolseiro';
-
 
 console.log(nome);
