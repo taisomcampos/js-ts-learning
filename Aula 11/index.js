@@ -1,4 +1,7 @@
 /*
+Operadores Aritméticos
++ - * / %
+
 Ordem de precedência dos Operadores Aritméticos
 1º. ()
 2º. **
@@ -7,6 +10,9 @@ Ordem de precedência dos Operadores Aritméticos
 Operadores de Incremento e Decremento
 Incremento ++
 Decremento --
+
+Operadores de Atribuição
++= -= *= **= /=
 */
 
 /*
@@ -17,10 +23,3 @@ num1 += 2;
 num1 += 2;
 console.log(num1);
 */
-
-let contador = 0;
-contador += 5;
-contador += 5;
-contador += 5;
-contador += 5;
-console.log(contador);
