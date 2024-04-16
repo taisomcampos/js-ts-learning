@@ -11,20 +11,20 @@ let c = varA;
 console.log(a, b, c);
 
 /*
-[1ª] Resposta do professor:
+    [1ª] Resposta do professor:
 
-    const varATemp = varA;
-    varA = varB;
-    varB = varC;
-    varC = varATemp;
+        const varATemp = varA;
+        varA = varB;
+        varB = varC;
+        varC = varATemp;
 
-[2ª] Resposta do professor: 
-    
-    [varA, varB, varC] = [varB, varC, varA];
+    [2ª] Resposta do professor: 
+        
+        [varA, varB, varC] = [varB, varC, varA];
 
-    * O professor utilizou a técnica de atribuição múltipla para trocar os valores entre as variáveis.
+        * O professor utilizou a técnica de atribuição múltipla para trocar os valores entre as variáveis.
 
-    * Ele criou um array com os valores das variáveis na ordem desejada, então não sei se minha resposta está correta.
+        * Ele criou um array com os valores das variáveis na ordem desejada, então não sei se minha resposta está correta.
 */
 
 
