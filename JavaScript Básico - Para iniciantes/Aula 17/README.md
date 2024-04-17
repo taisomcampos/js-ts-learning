@@ -7,4 +7,4 @@ Um exercício básico, com a intenção de testar se os conhecimentos inicias, a
 
 Aqui está um screenshot do exercício proposto:
 
-![Screenshot](//JavaScript%20Básico%20-%20Para%20iniciantes/Aula%2017/exercicionumberemath.png)
+![Screenshot](/JavaScript%20Básico%20-%20Para%20iniciantes/Aula%2017/exercicionumberemath.png)
