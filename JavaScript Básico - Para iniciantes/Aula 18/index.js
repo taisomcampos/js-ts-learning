@@ -13,37 +13,37 @@ console.log(alunos);
 /*
     Adiciona um elemento ao final
         alunos.push('Luanda', 'Fábio', 'Marcos');
-    
+    .
     Adiciona um elemento no ínicio
         alunos.unshift('Ricardo');
-
+    .
     Valor editado
         alunos[0] = 'Eduardo'; *altera
         alunos[3] = 'Mônica'; *adicionando um elemento
-
+    .
     Remove do final (pode também salvar o elemento removido em uma variável)
         const removido = alunos.pop();
         console.log(removido); *mostra quem foi removido
         console.log(alunos);
-
+    .
     Remove do começo
         const removido = alunos.shift();
         console.log(removido); *mostra quem foi removido
         console.log(alunos);
-
+    .
     Remove sem alterar os índices
         delete alunos[1];
-
+    .
     Acessar um ídice que não existe
         console.log(alunos[50]);
-
+    .
     Fatiando
         console.log(alunos.slice(0, 3)); *positivo
         console.log(alunos.slice(0, -2)); *negativo
-    
-    Verfifica se estou realmente ultilizando Array
+    .
+    Verififica se estou realmente ultilizando Array
         console.log(alunos instanceof array);
-
+    .
     console.log(alunos);
     console.log(alunos[0]);
     console.log(alunos[2]);
