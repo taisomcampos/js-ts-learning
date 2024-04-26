@@ -1,5 +1,5 @@
 function criarPessoa(nome, sobrenome, idade) {
-    return{nome, sobrenome, idade};
+    return { nome, sobrenome, idade };
 }
 
 const pessoa1 = criarPessoa('Taisom', 'Campos', 34);

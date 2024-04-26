@@ -1,4 +1,4 @@
-const pessoa1 = {
+const pessoa = {
     nome: 'Taisom',
     sobrenome: 'Campos',
     idade: 34,
@@ -8,14 +8,14 @@ const pessoa1 = {
     },
 
     incrementaIdade() {
-        this.idade++
+        this.idade++;
     }
 };
 
-pessoa1.fala();
-pessoa1.incrementaIdade();
-pessoa1.fala();
-pessoa1.incrementaIdade();
-pessoa1.fala();
-pessoa1.incrementaIdade();
-pessoa1.fala();
+pessoa.fala();
+pessoa.incrementaIdade();
+pessoa.fala();
+pessoa.incrementaIdade();
+pessoa.fala();
+pessoa.incrementaIdade();
+pessoa.fala();
