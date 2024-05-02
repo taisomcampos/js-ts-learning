@@ -1,0 +1,13 @@
+body {
+    background-color: teal;
+    color: aliceblue;
+    font: normal 15pt arial;
+}
+
+form {
+    background-color: aliceblue;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+}

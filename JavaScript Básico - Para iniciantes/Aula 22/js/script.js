@@ -1,16 +1,16 @@
 function meuEscopo() {
-    const form = document.querySelector('.formulario');
+    const formulario = document.querySelector('.formulario');
     const resultado = document.querySelector('.resultado');
 
     const pessoas = [];
 
-    function recebeEventoForm(evento) {
+    function recebeEnventoForm(evento) {
         evento.preventDefault();
 
-        const nome = form.querySelector('.nome');
-        const sobrenome = form.querySelector('.sobrenome');
-        const peso = form.querySelector('.peso');
-        const altura = form.querySelector('.altura');
+        const nome = formulario.querySelector('.nome');
+        const sobrenome = formulario.querySelector('.sobrenome');
+        const peso = formulario.querySelector('.peso');
+        const altura = formulario.querySelector('.altura');
 
         pessoas.push({
             nome: nome.value,
@@ -20,15 +20,10 @@ function meuEscopo() {
         });
 
         console.log(pessoas);
-
-        resultado.innerHTML += `<p>Nome: ${nome.value} </br> Sobrenome: ${sobrenome.value} </br> Peso: ${peso.value} Kg </br> Altura: ${altura.value} Mts</p>`
+        resultado.innerHTML += `<p><strong>Nome:</strong> ${nome.value} </br> <strong>Sobrenome:</strong> ${sobrenome.value} </br> <strong>Peso:</strong> ${peso.value} kg </br> <strong>Altura:</strong> ${altura.value} mts</p>`;
     }
 
-    form.addEventListener('submit', recebeEventoForm);
+    formulario.addEventListener('submit', recebeEnventoForm);
 }
-meuEscopo();
 
-// .value
-// Criar um objeto e colocar dentro de um aray
-// Fazer console.log dentro no array pra verificar quais foram os objetos colocados dentro do array
-// Adicionar o que foi enviado na div de resultado
+meuEscopo()
