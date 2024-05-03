@@ -1,13 +1,25 @@
 body {
-    background-color: teal;
-    color: aliceblue;
+    background-color: rgb(189, 29, 85);
     font: normal 15pt arial;
 }
 
-form {
-    background-color: aliceblue;
+header {
+    color: whitesmoke;
+    text-align: center;
+}
+
+section {
+    background-color: whitesmoke;
+    text-align: center;
     width: 500px;
+    margin: auto;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    color: whitesmoke;
 }
