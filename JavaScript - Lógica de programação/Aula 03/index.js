@@ -6,10 +6,3 @@
         null / undefined
         NaN
 */
-
-/*
-function falaOi() {
-    return 'oi';
-}
-
-*/
