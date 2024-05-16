@@ -8,6 +8,7 @@
 // Sempre que utilizo a palavra else, preciso de if antes
 // Posso ter vários else if's na checagem
 // Só se pode ter um else na checagem
+// Podemos usar condições sem else if, utilizando apenas if e else
 
 /*
     Exemplo 01
