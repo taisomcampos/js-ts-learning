@@ -64,7 +64,12 @@ form button:active {
     outline: 1px solid var(--primary-color);
 }
 
-div {
+.paragrafo-resultado {
+    background: rgb(105, 248, 182);
+    padding: 10px 20px;
+}
+
+#tabela {
     display: flex;
     padding-right: 60px;
     justify-content: space-between;
