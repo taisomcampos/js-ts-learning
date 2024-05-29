@@ -10,18 +10,20 @@ Nesta imagem, veremos a primeira tela do exercício proposto.
 
 ![Screenshot](/JavaScript%20-%20Lógica%20de%20programação/Aula%2006/calculoimc.png)
 
-## Tela de início
+## Resultado válido
 
 Na segunda imagem, poderemos ver um calculo de exemplo, dando um resultado positivo e, portanto, exibindo na tela uma mensagem com fundo verde.
 
 ![Screenshot](/JavaScript%20-%20Lógica%20de%20programação/Aula%2006/valido.png)
 
-## Tela de início
+## Peso inválido
 
 Na próxima imagem, poderemos ver o primeiro resultado, em vermelho, indicando que os dados de peso estão incorretos.
 
 ![Screenshot](/JavaScript%20-%20Lógica%20de%20programação/Aula%2006/pesoinvalido.png)
 
-## Tela de início
+## Altura inválida
 
 Na quarta e útima imagem, de forma similar à terceira, também poderemos ver um resultado em vermelho, indicando erro nos dados de altura.
+
+![Screenshot](/JavaScript%20-%20Lógica%20de%20programação/Aula%2006/alturainvalida.png)
