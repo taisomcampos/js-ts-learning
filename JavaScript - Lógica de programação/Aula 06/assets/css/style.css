@@ -64,9 +64,13 @@ form button:active {
     outline: 1px solid var(--primary-color);
 }
 
-.paragrafo-resultado {
+.paragrafo-resultado, .bad {
     background: rgb(105, 248, 182);
     padding: 10px 20px;
+}
+
+.bad {
+    background: rgb(255, 150, 150);
 }
 
 #tabela {
