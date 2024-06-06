@@ -1,9 +1,7 @@
-const pontuacaoUsuario = 999;
-const nivelUsuario = pontuacaoUsuario >= 1000 ? 'Usuário VIP' : 'Usuário normal';
+const pontuacaoUsuario = 1000;
+const controleUsuario = pontuacaoUsuario >= 1000 ? 'Usuario VIP' : 'Usuario normal';
 
-const corUsuario = null;
-const corPadrao = corUsuario || 'Preta';
-console.log(nivelUsuario);
+console.log(controleUsuario);
 
 /*
     Isso seria a mesma coisa que no código acima, utilizando o operador ternário
@@ -13,4 +11,3 @@ console.log(nivelUsuario);
             console.log('Usuário normal');
         }
 */
-
