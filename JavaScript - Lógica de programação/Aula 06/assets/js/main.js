@@ -59,7 +59,6 @@ function setResultado(msg, isValid) {
         p.classList.add('bad');
     }
 
-
     p.innerHTML = msg;
     resultado.appendChild(p);
 }; // cria função para resultado
