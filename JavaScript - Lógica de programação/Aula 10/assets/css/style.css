@@ -1,0 +1,13 @@
+body {
+    background-color: brown;
+    font: normal 16pt arial;
+}
+
+section {
+    background-color: aliceblue;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
