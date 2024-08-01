@@ -1,8 +1,5 @@
 const verdadeira = true;
 
-// Let tem escopo de bloco - ex.: {...bloco}
-// Var tem escopo de função
-
 let nome = 'Luiz'; // criando
 var nome2 = 'Luiz';
 
