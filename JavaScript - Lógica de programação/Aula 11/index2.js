@@ -1,16 +1,19 @@
 const verdadeira = true;
 
-let nome = 'Luiz'; // criando
-var nome2 = 'Luiz'; // criando
+let nomeUm = 'Frodo'; // criando
+var nomeDois = 'Bilbo'; // criando
 
 if (verdadeira) {
-    let nome = 'Campos'; // criando dentro do bloco
-    var nome2 = 'Bilbo'; // redeclarando
+    let nomeUm = 'Gandalf'; // criando
+    //var nomeDois = 'Sam'; // redeclarando
+    console.log(nomeUm, nomeDois);
 
     if (verdadeira) {
-        var nome2 = 'Frodo'; // redeclarando
-        let nome = 'Outra coisa';
+        var nomeDois = 'Galadriel';
+        let nomeUm = 'Aragorn';
+        console.log(nomeUm, nomeDois);
+
     }
 }
 
-console.log(nome, nome2);
+console.log(nomeUm, nomeDois);
