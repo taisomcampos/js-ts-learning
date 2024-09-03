@@ -1,14 +1,14 @@
 const verdadeira = true;
 
-let nome = 'Luiz'; // criando
-var nome2 = 'Luiz';
+let nomeUm = 'Bilbo'; // criando
+var nomeDois = 'Bilbo';
 
 if (verdadeira) {
-    let nome = 'Campos'; // criando dentro do bloco
-    //console.log(nome, nome2);
+    let nomeUm = 'Frodo'; // criando dentro do bloco e não redeclarando
+    // console.log(nomeUm, nomeDois);
 
     if (verdadeira) {
-        let nome = 'Outra coisa';
-        console.log(nome, nome2);
+        let nomeUm = 'Condado';
+        console.log(nomeUm, nomeDois);
     }
 }
