@@ -1,18 +1,17 @@
 const verdadeira = true;
 
-let nomeUm = 'Frodo'; // criando
-var nomeDois = 'Bilbo'; // criando
+let nomeUm = "Bilbo";
+var nomeDois = "Sam";
 
 if (verdadeira) {
-    let nomeUm = 'Gandalf'; // criando
-    //var nomeDois = 'Sam'; // redeclarando
+    let nomeUm = "Gandalf";
+    var nomeDois = "Pippin";
     console.log(nomeUm, nomeDois);
 
     if (verdadeira) {
-        var nomeDois = 'Galadriel';
-        let nomeUm = 'Aragorn';
+        var nomeDois = "Galadriel";
+        let nomeUm = "Elrond";
         console.log(nomeUm, nomeDois);
-
     }
 }
 
