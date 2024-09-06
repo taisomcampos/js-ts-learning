@@ -9,8 +9,8 @@ if (verdadeira) {
     console.log(nomeUm, nomeDois);
 
     if (verdadeira) {
-        var nomeDois = "Galadriel";
-        let nomeUm = "Elrond";
+        var nomeDois = "Aragorn";
+        let nomeUm = "Legolas";
         console.log(nomeUm, nomeDois);
     }
 }
