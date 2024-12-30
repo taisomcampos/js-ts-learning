@@ -1,13 +1,13 @@
+// Frodo Bolseiro, 33 anos, Rua do Bolsão, 123
 const pessoa = {
     nome: 'Frodo',
     sobrenome: 'Bolseiro',
-    idade: 33,
+    idade: '33 anos',
     endereco: {
-        rua: 'Rua dos Bobos',
-        numero: 320
+        rua: 'Rua do Bolsão',
+        numero: 312
     }
 };
 
-// Atribuição via desestruturação
-const { nome, sobrenome, idade } = pessoa;
-console.log(nome, sobrenome, idade);
+const {nome, sobrenome, idade, endereco: {rua, numero}} = pessoa;
+console.log(nome, sobrenome, idade, rua, numero);
