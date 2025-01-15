@@ -9,5 +9,5 @@ const pessoa = {
     }
 };
 
-const { nome, sobrenome, idade, endereco: { rua, numero} } = pessoa;
+const { nome, sobrenome, idade, endereco: { rua, numero } } = pessoa;
 console.log(`Meu nome é ${nome} ${sobrenome}, tenho ${idade} anos e moro na ${rua}, nº ${numero}.`);
